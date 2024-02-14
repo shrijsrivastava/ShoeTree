@@ -1,0 +1,20 @@
+.me-auto{
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.list1{
+    margin-right: 50px !important;
+    font-weight: bolder !important;
+}
+.cart_div{
+    margin-top: 10px;
+    font-weight: bolder !important;
+}
+.list2{
+    margin-right: 30px;
+}
+@media (max-width: 768px){
+    .me-auto{
+        margin: 0;
+    }
+}

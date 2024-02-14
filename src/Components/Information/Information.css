@@ -1,0 +1,48 @@
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center !important;
+    padding: 50px;
+
+}
+
+.deliver img,
+.Return img,
+.gift img,
+.contact img {
+    width: 80px !important;
+
+    
+}
+
+.deliver,
+.Return,
+.gift,
+.contact {
+    
+    text-align: center;
+}
+
+@media (max-width:426px){
+    .info{
+        flex-direction: column;
+    }
+}
+
+@media  (max-width:768px){
+    .info{
+        padding: 40px;
+    }
+    .deliver,
+    .Return,
+    .gift,
+    .contact
+        {
+        font-size: 15px;
+
+    }
+}
+    
+
+
+    

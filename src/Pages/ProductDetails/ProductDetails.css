@@ -1,0 +1,42 @@
+
+.product_details{
+    display: flex;   
+}
+.shoes_img{
+    height: 30rem;
+    width: 30rem;
+}
+.product_name{
+    color: rgb(82, 80, 80);
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.product_mrp{
+    margin: 0;
+}
+.product_price{
+    margin: 0;
+}
+.dropdown{
+    width: 22%;
+    height: 8%;
+    border: none !important;
+    background-color: rgb(249, 246, 246);
+}
+.cart_button{
+    margin-left: 20px;
+    width: 70%;
+    padding: 10px;
+    background-color:#7c5a4e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 22.5rem;
+}
+.cart_button:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}

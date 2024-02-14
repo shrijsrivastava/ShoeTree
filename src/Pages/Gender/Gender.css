@@ -1,0 +1,11 @@
+.hero_section img{
+   max-width: 100%;
+}
+.fixed-height{
+   height: 450px !important;
+
+}
+.link-style{
+   text-decoration: none ;
+  
+}
